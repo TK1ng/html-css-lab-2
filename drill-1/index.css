@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #343535;
+    height: 250px;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.side-panel {
+    background-color: slategray;
+    width: 20%;
+}
+
+.content {
+    position: relative;
+    height: 100vh;
+    width: 60%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    background-color: black;
+}
